@@ -1,7 +1,5 @@
-<h1 align="center">Phone Hunter</h1>
+<h1 align="center bold">Phone-Hunter</h1>
 
-## Live Preview Link: 
-<p align="center"> https://rehan606.github.io/Phone-Hunter-/</p>
+## live link :
+<p align="center">https://ela60.github.io/Phone-Details-Website-USing-Api/<p>
 
-## Project Preview
-<p align="center"><img src="https://github.com/rehan606/Phone-Hunter-/blob/main/preview.png?raw=true" alt=""  width="800"></p>
