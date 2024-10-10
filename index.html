@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Phone Hunter</title>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.11/dist/full.min.css"
       rel="stylesheet"
@@ -34,8 +34,11 @@
       }
     </style>
   </head>
-  <body>
-    <nav class="bg-gray-800">
+
+
+  <body class=" overflow-x-hidden ">
+    <!-- Nav area  -->
+    <nav class="bg-gray-800 ">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -247,60 +250,50 @@
       </div>
     </nav>
 
-    <div class="w-full max-w-sm mx-auto mt-5">
-      <div class="flex items-center">
-        <input
-        id="search-box"
-          type="text"
-          placeholder="Search..."
-          class="w-full px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        <button
-          onclick="handleSearch()"
-          type="submit"
-          class="px-4 py-2 bg-blue-500 text-white font-semibold rounded-r-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          Search
-        </button>
-      </form>
-    </div>
-    <!-- all phone show in this container -->
-    <div
-      id="phones-container"
-      class="phones-container flex justify-around items-center flex-wrap"
-    >
-      <!-- here we showed our spinner -->
-      <div id="spinner"></div>
-      <!-- here we make our ophone card  -->
 
-</div>
+    <section>
+        <div class="container mx-auto w-full px-4 w-11/12 mx-auto">
+          <div class="flex items-center justify-center mt-10 ">
+            <input id="search-box" type="text" placeholder="Search..." class="w-96 px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"/>
 
-<div class="text-center">
-    <button onclick="handleShowAll()" class="btn  bg-red-500 mt-5">Show All</button>
-
-</div>
-
- <!-- show modal here  -->
-
-<!-- Open the modal using ID.showModal() method -->
-
-<!-- Open the modal using ID.showModal() method -->
->
-
-<div id="modal-container">
-
-
-
-
+            <button onclick="handleSearch()" type="submit" class="px-4 py-2 bg-blue-500 text-white font-semibold rounded-r-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500" > Search  </button>
+          </div>
+        </div>
+    </section>
     
-</div>
 
 
+    <!-- all phone show in this container -->
+    <section>
+      <div class="container w-full mx-auto  ">
+        <div id="spinner"></div>
+        <div id="phones-container" class="mt-10 phones-container flex justify-center items-center flex-wrap gap-4 px-6" >
+          <!-- here we showed our spinner -->
+          
+          <!-- here we make our phone card  -->
+    
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center">
+        <button onclick="handleShowAll()" class="btn  bg-red-500 mt-5">Show All</button>
+
+    </div>
+
+    <!-- show modal here  -->
+
+  
+    <!-- Open the modal using ID.showModal() method -->
+    
+    
+    
+    <div id="modal-container">
+      
+    </div>
 
 
-
-
-     
+    <!-- ------------------------------------  -->
 
     <!-- footer  -->
     <div class="mt-12">
@@ -393,7 +386,10 @@
    
 
     
-    <script src="js/index.js"></script>
-    <!-- <script src="./index.js"></script> -->
+
+    <script src="js/script.js"></script>
   </body>
 </html>
+
+
+

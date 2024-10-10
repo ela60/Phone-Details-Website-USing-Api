@@ -1,11 +1,5 @@
-##API Links
--Phone Search
--URL Formate:url'https://openapi.programming-hero.com/api/phones?search=${searchText}'
+<h1 align="center bold">Phone-Hunter</h1>
 
--Example:' https://openapi.programming-hero.com/api/phones?search=iphone'
+## live link :
+<p align="center">
 
-
--Phone details url:
--URL Formate:url'https://openapi.programming-hero.com/api/phone/${id}'
-
--Example:'  https://openapi.programming-hero.com/api/phone/apple_iphone_13_pro_max-11089'
