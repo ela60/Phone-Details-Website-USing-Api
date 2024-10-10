@@ -3,3 +3,6 @@
 ## live link :
 <p align="center">https://ela60.github.io/Phone-Details-Website-USing-Api/<p>
 
+## OverView Project:
+  <img src="preview.png" alt="">
+
